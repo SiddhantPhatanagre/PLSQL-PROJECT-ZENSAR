@@ -1,23 +1,19 @@
-Cinema Ticket Booking System
+# Cinema Ticket Booking System
 
-Project Overview
+## Project Overview
 
 The Cinema Ticket Booking System is a PL/SQL-based project designed to manage and facilitate movie ticket bookings. It includes functionalities for managing users, movies, theaters, and bookings, ensuring seamless operations in a cinema environment.
 
-Features
-	•	User Management:
-	•	Handles user registration with roles like Admin and Customer.
-	•	Stores user information securely with validations.
-	•	Movie Management:
-	•	Tracks movies with attributes like title, genre, duration, and release date.
-	•	Supports CRUD operations for managing movie details.
-	•	Theater and Screening Management:
-	•	Manages theater details and movie screenings.
-	•	Booking System:
-	•	Enables customers to book tickets for available screenings.
-	•	Admins can view and manage bookings.
+## Features
+User Management:Handles user registration with roles like Admin and Customer.Stores user information securely with validations.
 
-Database Design
+Movie Management:Tracks movies with attributes like title, genre, duration, and release date.Supports CRUD operations for managing movie details.
+	
+Theater and Screening Management:Manages theater details and movie screenings.
+		
+Booking System:	Enables customers to book tickets for available screenings.Admins can view and manage bookings.
+
+## Database Design:
 
 The project involves the following key tables:
 	1.	Users:
@@ -29,18 +25,21 @@ The project involves the following key tables:
 	4.	Bookings (possibly):
 	•	Handles ticket bookings, associating users, movies, and screening details.
 
-Technologies Used
-	•	PL/SQL: For database programming.
-	•	Oracle Database: Backend database.
-	•	SQL*Plus: Command-line interface for running scripts.
+## Technologies Used
+PL/SQL: For database programming.
+Oracle Database: Backend database.
+SQL*Plus: Command-line interface for running scripts.
 
-How to Run
-	1.	Ensure you have Oracle Database installed and running.
-	2.	Use SQL*Plus or any PL/SQL-compatible IDE to execute the provided SQL script.
-	3.	Load the database schema by running the .sql file.
-	4.	Test functionalities using queries for CRUD operations on the respective tables.
+## How to Run
+Ensure you have Oracle Database installed and running.
+Use SQL*Plus or any PL/SQL-compatible IDE to execute the provided SQL script.
+Load the database schema by running the .sql file.
+Test functionalities using queries for CRUD operations on the respective tables.
 
-Future Enhancements
-	•	Add a web or mobile interface for easier user interaction.
-	•	Include advanced features like payment integration and ticket cancellation.
-	•	Implement comprehensive error handling and reporting mechanisms.
+## Future Enhancements:
+Add a web or mobile interface for easier user interaction.
+Include advanced features like payment integration and ticket cancellation.
+Implement comprehensive error handling and reporting mechanisms.
+
+## Guidance:
+This project is created under the guidance of aniruddha gaikwad sir.
